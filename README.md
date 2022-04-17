@@ -1,3 +1,34 @@
+NutGet Packages:
+*Microsoft.EntityFrameworkCore
+*Microsoft.IdentityModel.Tokens
+*BCrypt.Net-Next
+*Microsoft.AspNetCore.Mvc.NewtonsoftJson
+*Microsoft.EntityFrameworkCore.SqlServer
+*Microsoft.EntityFrameworkCore.Design
+
+npm Packages:
+*styled-components
+*babel-plugin-styled-components
+*react-router-dom
+In frontend folder create a .env file with REACT_APP_API_KEY = your TMDB API key(no commas required)
+
+Press ctrl ` and do the following commands:
+
+dotnet ef migrations add Init --output-dir Data/Migrations
+
+Check that the migration is not empty
+
+Run : dotnet ef migrations remove if empty 
+Run : dotnet build if error
+Run : dotnet ef database update
+
+Run Application
+
+Login, and enjoy.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
