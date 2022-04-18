@@ -1,12 +1,4 @@
-NutGet Packages:
-*Microsoft.EntityFrameworkCore
-*Microsoft.IdentityModel.Tokens
-*BCrypt.Net-Next
-*Microsoft.AspNetCore.Mvc.NewtonsoftJson
-*Microsoft.EntityFrameworkCore.SqlServer
-*Microsoft.EntityFrameworkCore.Design
-
-npm Packages:
+front end npm Packages:
 *styled-components
 *babel-plugin-styled-components
 *react-router-dom
